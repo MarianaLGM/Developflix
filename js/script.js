@@ -20,7 +20,7 @@ import peliculas from './peliculas.js'
 
 //Crear una función que contenga dos parámetros (el genero, contenedor)
 
-function peliculasPorGenero (genero, contenedor){
+function peliculasPorGenero (generoId, divPelis){  //REVISAR SI LOS ARGUMENTOS SON CORRECTOS
 
 //Recoger en una variable el contenedor y en otra variable cada genero de la película:
 
@@ -39,24 +39,32 @@ function peliculasPorGenero (genero, contenedor){
     //console.log(divPelisAventura)
     //console.log("pelisAventura", generoIdAventura)
 
-    //bucle para recorrer cada película y mostrarla
+    //bucle para recorrer cada película y mostrarla REVISAR 
     for(let i=0; i<0; i++);
+    console.log (peliculasPorGenero);
 
-    const elementDiv = document.createElement('div'); //creo un elemento div
-    elementDiv.insertAdjacentHTML ("beforebegin","class=div");//añado una clase 
+    const elementContenedor = document.createElement('div'); //creo un elemento div
+    elementContenedor.insertAdjacentHTML ("beforebegin","class=contenedor");//añado una clase 
 
-    const elementTitle = document.createElement('title');//creo elemento title
-    elementTitle.insertAdjacentHTML ("beforebegin", "class=title", "<p></p>"); //añado clase y texto a title
+    const elementTitle = document.createElement("title");//creo elemento title
+    elementTitle.insertAdjacentHTML ("beforebegin", "class=title", "<h3 peliculas.title></h3>"); //añado clase y texto a title REVISAR PELICULAS TITLE
 
     const elementImg =document.createElement("img");//creo elemento imagen
     elementImg.insertAdjacentHTML("beforebegin", "class=img","<img scr:https://image.tmdb.org/t/p/w500>", "alt=poster pelicula");//añado class/src/
 
-    elementDiv.appendChild (elementTitle, elementImg);// title e imagen son hijos de Div
+    elementContenedor.appendChild (elementTitle, elementImg);// title e imagen son hijos de Div
     
-   contenedor.appendChild(elementDiv);//añado al contenedor el div, por defecto colgarán title e img
+   contenedor.appendChild(elementContenedor);//añado al contenedor el div, por defecto colgarán title e img REVISAR CONTENEDOR ES OK
 
-    peliculasPorGenero;
+// llamar a la funcion y meter como argumentos cada uno de los generos y contenedor donde va cada uno.
+   peliculasPorGenero (28, divPelisAccion);
+   peliculasPorGenero (53, divPelisThriller);
+   peliculasPorGenero (12, divPelisAventura);
+
 }
+
+
+ 
 
 
     
