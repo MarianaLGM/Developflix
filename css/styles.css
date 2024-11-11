@@ -1,18 +1,26 @@
 /* styles.css */
 body {
   font-family: Arial, sans-serif;
+  background-image: url(https://img.freepik.com/foto-gratis/simbolos-cinematografia-sobre-fondo-negro_23-2147698946.jpg?ga=GA1.1.1117630890.1730399903&semt=ais_hybrid);
+  color:#d8d4d4;
+  font-family:monospace;
+  font-size: 20px;
 }
 
 .genero-container {
   margin: 20px;
   padding: 20px;
   border: 1px solid #ccc;
-  background-color: #f8f8f8;
+  background-color: #545151;
 }
 
 h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
+  color:#d8d4d4;
+  font-family:monospace;
+  letter-spacing: 0.3em;
+
 }
 
 
