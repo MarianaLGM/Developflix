@@ -34,7 +34,7 @@ function peliculasPorGenero(generoId, divPelis) {
       elementDiv.classList.add("contenedor");//añado una clase 
 
       const elementImg =document.createElement("img");//creo elemento imagen
-      elementImg.setAttribute("src","https://image.tmdb.org/t/p/w500"+(pelicula.backdrop_path));//añado class/src/
+      elementImg.setAttribute("src","https://image.tmdb.org/t/p/w500"+(pelicula.poster_path));//añado class/src/
       
       const elementTitle = document.createElement("h3");//creo elemento title
       elementTitle.classList.add("title");//añado una clase 
@@ -51,7 +51,7 @@ function peliculasPorGenero(generoId, divPelis) {
       elementDiv.classList.add("contenedor");//añado una clase 
    
       const elementImg =document.createElement("img");//creo elemento imagen
-      elementImg.setAttribute("src","https://image.tmdb.org/t/p/w500"+(pelicula.backdrop_path));//añado class/src/
+      elementImg.setAttribute("src","https://image.tmdb.org/t/p/w500"+(pelicula.poster_path));//añado class/src/
          
       const elementTitle = document.createElement("h3");//creo elemento title
       elementTitle.innerText= pelicula.title; //añado title 
@@ -67,7 +67,7 @@ function peliculasPorGenero(generoId, divPelis) {
       elementDiv.classList.add("contenedor");//añado una clase 
       
       const elementImg =document.createElement("img");//creo elemento imagen
-      elementImg.setAttribute("src","https://image.tmdb.org/t/p/w500"+(pelicula.backdrop_path));//añado class/src/
+      elementImg.setAttribute("src","https://image.tmdb.org/t/p/w500"+(pelicula.poster_path));//añado class/src/
             
       const elementTitle = document.createElement("h3");//creo elemento title
       elementTitle.innerText= pelicula.title; //añado clase y texto a title REVISAR PELICULAS TITLE
