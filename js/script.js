@@ -26,7 +26,6 @@ function peliculasPorGenero(generoId, divPelis) {
    //console.log(divPelisAventura);
    //console.log("pelis Aventura", generoIdAventura);
     
- 
    //creo un div, un titulo y una img para meter todo dentro de los siguientes contenedores:contenedorAccion (html),contenedorThriller(html) y contendorAventura(html)
 
    generoIdAccion.filter(pelicula =>{
